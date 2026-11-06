@@ -1,0 +1,20 @@
+# Data is never committed (lab-owned recordings)
+data/
+dataset*/
+*.mat
+*.nirs
+*.edf
+*.csv
+!results/*.csv
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+.env
+
+# OS
+desktop.ini
+.DS_Store
+Thumbs.db
