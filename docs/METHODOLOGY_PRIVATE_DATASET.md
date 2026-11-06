@@ -97,8 +97,8 @@ Spearman(\|Cohen's d\|, fusion RF importance): ρ = +0.714, p = 0.071 (7 compone
 ## 5. How to re-run
 
 ```bash
-python src/analyse_descripteurs_v2.py path/to/dataset/
-python src/adapter_prive_level3_v2.py path/to/dataset/ full
+python src/private_dataset/analyse_descripteurs_v2.py path/to/dataset/
+python src/private_dataset/adapter_prive_level3_v2.py path/to/dataset/ full
 ```
 
 - **fast** (default): reduced grid, 150-tree forests, ~20 min on one core. Produced the numbers above; methodologically identical, just a coarser grid.
